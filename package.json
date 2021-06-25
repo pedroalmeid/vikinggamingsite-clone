@@ -1,12 +1,10 @@
 {
   "name": "vikinggamingsite-clone",
   "title": "VikingGaming Site Next Clone",
-  "description": "Use Sass to start your Next.js app with CSS superpowers!",
+  "description": "A NextJS clone of an institutional esports org's website built with wordpress (vikinggaming.gg)",
   "version": "0.1.0",
   "author": {
-    "name": "Colby Fayock",
-    "email": "hello@colbyfayock.com",
-    "url": "https://twitter.com/colbyfayock"
+    "name": "Pedro Almeida"
   },
   "dependencies": {
     "next": "10.0.7",
@@ -28,12 +26,8 @@
     "build": "next build",
     "start": "next start"
   },
-  "homepage": "https://next-sass-starter.vercel.app",
   "repository": {
     "type": "git",
-    "url": "https://github.com/colbyfayock/next-sass-starter"
-  },
-  "bugs": {
-    "url": "https://github.com/colbyfayock/next-sass-starter/issues"
+    "url": "https://github.com/pedroalmeid/vikinggamingsite-clone"
   }
 }
