@@ -7,7 +7,7 @@ import CLN from "classnames";
 
 export default function NavigationMenu({ transparent }) {
   return (
-    <div
+    <header
       className={CLN({
         [styles.transparent]: transparent,
         [styles.filled]: !transparent,
@@ -20,7 +20,7 @@ export default function NavigationMenu({ transparent }) {
         <a className={styles.menuItem}>Line-Ups</a>
       </Link>
       <Link href="/">
-        <a>
+        <a className={styles.menuLogo}>
           <Image
             src="/images/header-logo.png"
             height={65}
@@ -35,6 +35,6 @@ export default function NavigationMenu({ transparent }) {
       <Link href="/contact">
         <a className={styles.menuItem}>Contato</a>
       </Link>
-    </div>
+    </header>
   );
 }

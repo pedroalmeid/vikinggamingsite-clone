@@ -1,5 +1,5 @@
-import TopHeader from "./topHeader";
-import Footer from "./footer";
+import TopHeader from "./TopHeader/topHeader";
+import Footer from "./Footer/footer";
 
 export default function Layout({ children }) {
   return (

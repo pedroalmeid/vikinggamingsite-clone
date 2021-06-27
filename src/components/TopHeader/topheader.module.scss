@@ -8,6 +8,11 @@
   gap: 30px;
   color: black;
   cursor: pointer;
+  transition: filter 0.2s;
+
+  &:hover{
+    filter: brightness(1.12)
+  }
 
   .description {
     font-family: "Prompt", "Roboto", "Arial", sans-serif;
