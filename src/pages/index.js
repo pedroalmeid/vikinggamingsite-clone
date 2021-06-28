@@ -3,6 +3,7 @@ import Image from "next/image";
 
 import Layout from "../components/layout";
 import NavigationMenu from "../components/NavigationMenu/navigationMenu";
+import HomeModalityCard from "../components/HomeModalityCard/homeModalityCard"
 
 import styles from "../styles/home.module.scss";
 
@@ -33,6 +34,15 @@ export default function Home() {
               querem conquistar nos motiva a fazer o mesmo com nossa
               Organização.
             </p>
+
+            <nav className={styles.modalitiesSection}>
+              <span className={styles.modalitiesMenuTitle}>Os jogos em que atuamos</span>
+              <div className={styles.modalitiesMenu}>
+                <HomeModalityCard modality="freefire"/>
+                <HomeModalityCard modality="wildrift"/>
+                <HomeModalityCard modality="valorant"/>
+              </div>
+            </nav>
           </div>
         </div>
       </div>
