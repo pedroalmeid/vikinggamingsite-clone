@@ -3,12 +3,12 @@ import Image from "next/image";
 
 import styles from "./navigationmenu.module.scss";
 
-import CLN from "classnames";
+import useClassNames from "classnames";
 
 export default function NavigationMenu({ transparent }) {
   return (
     <header
-      className={CLN(styles.container, {
+      className={useClassNames(styles.container, {
         [styles.transparent]: transparent,
       })}
     >

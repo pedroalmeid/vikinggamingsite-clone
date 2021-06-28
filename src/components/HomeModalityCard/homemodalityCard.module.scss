@@ -1,5 +1,5 @@
-.card{
-  background-color: #00702D;
+.card {
+  background-color: #00702d;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -11,34 +11,28 @@
   box-shadow: 0 4px 4px #00000025;
   transition: padding 0.3s;
 
-  &:hover{
-    padding: 50px 25px; 
+  &:hover {
+    padding: 50px 25px;
   }
 }
 
-.freefire{
-  background: 
-  url("../../../public/images/freefire-background.jpg") 
-  no-repeat,
-  rgba($color: #00702D, $alpha: 0.85);
+.freefire {
+  background: url("../../../public/images/freefire-background.jpg") no-repeat,
+    rgba($color: #00702d, $alpha: 0.85);
   background-blend-mode: multiply;
   background-size: cover;
 }
 
-.valorant{
-  background: 
-  url("../../../public/images/valorant-background.jpg") 
-  no-repeat,
-  rgba($color: #00702D, $alpha: 0.85);
+.valorant {
+  background: url("../../../public/images/valorant-background.jpg") no-repeat,
+    rgba($color: #00702d, $alpha: 0.85);
   background-blend-mode: multiply;
   background-size: cover;
 }
 
-.wildrift{
-  background: 
-  url("../../../public/images/wildrift-background.jpg") 
-  no-repeat,
-  rgba($color: #00702D, $alpha: 0.85);
+.wildrift {
+  background: url("../../../public/images/wildrift-background.jpg") no-repeat,
+    rgba($color: #00702d, $alpha: 0.85);
   background-blend-mode: multiply;
   background-size: cover;
 }

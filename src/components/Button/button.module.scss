@@ -1,0 +1,26 @@
+.button{
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0AFE6B;
+  padding: 12px 25px;
+  border: solid transparent 1px;
+  border-radius: 20px;
+  color: black;
+  font-size: 16px;
+  font-family: 'Prompt', 'Roboto', 'Arial', sans-serif;
+  font-weight: 500;
+  cursor: pointer;
+  min-width: 135px;
+
+  transition: background 0.62s;
+  transition: border 0.62s;
+  transition: color 0.62s;
+
+  &:hover{
+    background: transparent;
+    border: solid #0AFE6B 1px;
+    color: #0AFE6B;
+  }
+}
