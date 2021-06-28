@@ -8,9 +8,8 @@ import CLN from "classnames";
 export default function NavigationMenu({ transparent }) {
   return (
     <header
-      className={CLN({
+      className={CLN(styles.container, {
         [styles.transparent]: transparent,
-        [styles.filled]: !transparent,
       })}
     >
       <Link href="/">
