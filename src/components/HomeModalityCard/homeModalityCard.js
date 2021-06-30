@@ -15,7 +15,7 @@ export default function HomeModalityCard({ modality }) {
       })}
     >
       <Image
-        src={`/images/${modality}.png`}
+        src={`/images/games/${modality}.png`}
         alt={modality}
         width={100} 
         height={modality === "wildrift" ? 70 : 30}

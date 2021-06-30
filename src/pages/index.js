@@ -100,7 +100,7 @@ export default function Home() {
         <div className={styles.partnersLogos}>
           <a href="https://www.wayup.gg/viking-gaming" target="_blank">
             <Image
-              src="/images/wayup.png"
+              src="/images/partners/wayup.png"
               width={140}
               height={60}
               alt="Way Up"
@@ -108,7 +108,7 @@ export default function Home() {
           </a>
           <a href="https://3p.gg/" target="_blank">
             <Image
-              src="/images/profitproplayer.png"
+              src="/images/partners/profitproplayer.png"
               width={140}
               height={70}
               alt="Profit Pro Player"

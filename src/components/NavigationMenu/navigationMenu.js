@@ -21,7 +21,7 @@ export default function NavigationMenu({ transparent }) {
       <Link href="/">
         <a className={styles.menuLogo}>
           <Image
-            src="/images/header-logo.png"
+            src="/images/logos/header-logo.png"
             height={65}
             width={65}
             alt="Viking Gaming Logo"
