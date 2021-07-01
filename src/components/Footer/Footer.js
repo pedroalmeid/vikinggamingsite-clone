@@ -85,7 +85,7 @@ export default function Footer() {
           </p>
           <p className={styles.simpleText}>
             Acesse e leia:{" "}
-            <Link href="/privacy">
+            <Link href="/">
               <a>Política de Privacidade</a>
             </Link>
           </p>

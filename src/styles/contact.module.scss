@@ -1,0 +1,122 @@
+.formContainer {
+  margin: 100px auto 0 auto;
+  width: 1170px;
+  background-color: #1f1f1f;
+  border-radius: 28px;
+  padding: 70px 100px;
+  box-shadow: 0 8px 25px #00000035;
+
+  h1 {
+    font-size: 55px;
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #0afe6b;
+  }
+
+  p {
+    font-size: 22px;
+    font-weight: 400;
+    font-family: "Prompt", "Roboto" sans-serif;
+    color: #a3a3a3;
+  }
+
+  form {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 55px;
+
+    div {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+
+      label {
+        font-family: "Prompt", "Roboto" sans-serif;
+        color: #0afe6b;
+        font-weight: 600;
+        font-weight: 22px;
+      }
+
+      input {
+        background-color: #393939;
+        border: none;
+        border-radius: 12px;
+        height: 64px;
+        padding: 30px 30px;
+        color: #a3a3a3;
+        font-family: "Prompt", "Roboto" sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        transition: margin 0.2s;
+
+        &:focus {
+          outline: 0;
+          margin: 2px;
+          box-shadow: 0 2px 6px #00000030;
+        }
+      }
+
+      textarea {
+        background-color: #393939;
+        border: none;
+        border-radius: 12px;
+        padding: 30px 30px;
+        color: #a3a3a3;
+        font-family: "Prompt", "Roboto" sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        transition: margin 0.2s;
+
+        &:focus {
+          outline: 0;
+          margin: 2px;
+          box-shadow: 0 2px 6px #00000030;
+        }
+      }
+    }
+  }
+}
+
+.socialsSection {
+  background: url("../../public/images/backgrounds/contact-socials-background.jpg")
+    no-repeat;
+  padding: 130px 0;
+  margin-top: 60px;
+
+  div {
+    margin: 0 auto;
+    width: 1170px;
+
+    h2 {
+      font-size: 55px;
+      font-family: "Anton", sans-serif;
+      font-weight: 400;
+      text-transform: uppercase;
+      color: #0afe6b;
+    }
+
+    nav{
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+      margin-top: 50px;
+
+      a{
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        color: #0AFE6B;
+        font-family: "Prompt", "Roboto" sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+        transition: filter 0.3s;
+
+        &:hover{
+          filter: opacity(0.5);
+        }
+      }
+    }
+  }
+}
