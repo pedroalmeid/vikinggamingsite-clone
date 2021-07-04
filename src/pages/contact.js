@@ -7,11 +7,34 @@ import {
 
 import Layout from "../components/layout";
 import NavigationMenu from "../components/NavigationMenu/navigationMenu";
-import Button from "../components/Button/button"
+import Button from "../components/Button/button";
 
 import styles from "../styles/contact.module.scss";
 
 export default function Contact() {
+  async function handleContact(event) {
+    event.preventDefault();
+
+    const data = {
+      name: event.target.name.value,
+      email: event.target.email.value,
+      subject: event.target.subject.value,
+      message: event.target.message.value,
+    };
+
+    await fetch("/api/form", {
+      method: "POST",
+      body: JSON.stringify(data),
+    })
+      .then(res => {
+        if (res.status == 200) {
+          alert('Email enviado com sucesso, você receberá sua resposta em breve!')
+        }
+      });
+
+    event.target.reset();
+  }
+
   return (
     <Layout>
       <NavigationMenu />
@@ -20,28 +43,52 @@ export default function Contact() {
         <h1>Entre em contato conosco</h1>
         <p>Preencha todas as informações do formulário e envie!</p>
 
-        <form>
+        <form onSubmit={handleContact}>
           <div>
             <label htmlFor="name">Nome ou Empresa:</label>
-            <input type="text" name="name" id="name" />
+            <input
+              type="text"
+              name="name"
+              id="name"
+              required
+              autoComplete="name"
+            />
           </div>
 
           <div>
             <label htmlFor="email">Email:</label>
-            <input type="email" name="email" id="email" />
+            <input
+              type="email"
+              name="email"
+              id="email"
+              required
+              autoComplete="email"
+            />
           </div>
 
           <div>
-            <label htmlFor="topic">Assunto:</label>
-            <input type="text" name="topic" id="topic" />
+            <label htmlFor="subject">Assunto:</label>
+            <input
+              type="text"
+              name="subject"
+              id="subject"
+              required
+              autoComplete="off"
+            />
           </div>
 
           <div>
             <label htmlFor="message">Mensagem:</label>
-            <textarea name="message" id="message" rows="8"></textarea>
+            <textarea
+              name="message"
+              id="message"
+              rows="8"
+              required
+              autoComplete="off"
+            ></textarea>
           </div>
 
-          <Button text="Enviar"/>
+          <Button text="Enviar" type="submit" />
         </form>
       </main>
 
