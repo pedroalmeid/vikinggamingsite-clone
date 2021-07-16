@@ -91,7 +91,9 @@ export default function Footer() {
           </p>
           <p className={styles.simpleText}>
             Site desenvolvido por{" "}
-            <a href="https://github.com/pedroalmeid">Pedro Almeida</a>
+            <a href="https://github.com/pedroalmeid" target="_blank">
+              Pedro Almeida
+            </a>
           </p>
         </div>
       </div>

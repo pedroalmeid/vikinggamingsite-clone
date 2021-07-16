@@ -35,24 +35,25 @@
       cursor: pointer;
       transition: filter 0.35s;
 
-      &:hover{
+      &:hover {
         filter: brightness(0.5);
       }
     }
   }
 
-  .thirdColumn{
+  .thirdColumn {
     display: flex;
     flex-direction: column;
     gap: 30px;
-    
-    .subFields{
+
+    .subFields {
       display: flex;
       flex-direction: column;
-      gap: 20px
+      gap: 20px;
     }
 
-    a, p{
+    a,
+    p {
       font-family: "Prompt", "Roboto", sans-serif;
       font-size: 15px;
       font-weight: 400;
@@ -60,13 +61,13 @@
       cursor: pointer;
       transition: filter 0.35s;
 
-      &:hover{
+      &:hover {
         filter: brightness(0.5);
       }
     }
   }
 }
- 
+
 .bottom {
   display: flex;
   flex-direction: column;
@@ -92,7 +93,7 @@
   }
 }
 
-.social nav a{
+.social nav a {
   color: #0afe6b;
   display: flex;
   align-items: center;

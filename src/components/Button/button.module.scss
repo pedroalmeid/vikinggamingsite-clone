@@ -1,15 +1,15 @@
-.button{
+.button {
   text-decoration: none;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #0AFE6B;
+  background-color: #0afe6b;
   padding: 12px 25px;
   border: solid transparent 1px;
   border-radius: 20px;
   color: black;
   font-size: 16px;
-  font-family: 'Prompt', 'Roboto', 'Arial', sans-serif;
+  font-family: "Prompt", "Roboto", "Arial", sans-serif;
   font-weight: 500;
   cursor: pointer;
   min-width: 135px;
@@ -18,9 +18,9 @@
   transition: border 0.62s;
   transition: color 0.62s;
 
-  &:hover{
+  &:hover {
     background: transparent;
-    border: solid #0AFE6B 1px;
-    color: #0AFE6B;
+    border: solid #0afe6b 1px;
+    color: #0afe6b;
   }
 }

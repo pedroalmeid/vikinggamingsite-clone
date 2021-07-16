@@ -25,17 +25,18 @@ export default function Contact() {
     await fetch("/api/form", {
       method: "POST",
       body: JSON.stringify(data),
-    })
-      .then(res => {
-        if (res.status == 200) {
-          alert('Email enviado com sucesso, você receberá sua resposta em breve!')
-        }
-      });
+    }).then((res) => {
+      if (res.status == 200) {
+        alert(
+          "Email enviado com sucesso, você receberá sua resposta em breve!"
+        );
+      }
+    });
 
     event.target.reset();
   }
 
-  return (
+  return (  
     <Layout>
       <NavigationMenu />
 

@@ -70,7 +70,7 @@ export default function Home() {
               oficiais das modalidades. Acesse nossa página das lines e conheça
               mais sobre cada um dos jogadores de nossa organização
             </p>
-            <Button text="Ver mais" route="/" />
+            <Button text="Ver mais" route="/lineups" />
           </div>
           <div className={useClassNames(styles.contentBox, styles.rightAlined)}>
             <h2>Streamers e Criadores de Conteúdo</h2>
@@ -80,7 +80,7 @@ export default function Home() {
               dos games e dos esports. Confira quem são e onde é possível
               acompanhá-los.
             </p>
-            <Button text="Ver mais" route="/" />
+            <Button text="Ver mais" route="/lineups" />
           </div>
           <div className={styles.contentBox}>
             <h2>Staff e Membros da org</h2>
@@ -90,7 +90,7 @@ export default function Home() {
               um de seus membros, um lugar cada vez mais profissional. Conheça
               quem são as pessoas que doam sua vida ao projeto!
             </p>
-            <Button text="Ver mais" route="/" />
+            <Button text="Ver mais" route="/about" />
           </div>
         </section>
       </div>

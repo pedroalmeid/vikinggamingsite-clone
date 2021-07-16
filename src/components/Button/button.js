@@ -11,8 +11,10 @@ export default function Button(props) {
         </Link>
       )}
 
-      {props.type && (  
-          <button className={styles.button} type={props.type}>{props.text}</button>
+      {props.type && (
+        <button className={styles.button} type={props.type}>
+          {props.text}
+        </button>
       )}
     </>
   );

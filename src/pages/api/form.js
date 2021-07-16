@@ -18,14 +18,14 @@ export default async function handler(req, res) {
       },
     };
 
-    await axios.post("https://api.emailjs.com/api/v1.0/email/send", params)
-      .then(response => {
+    await axios
+      .post("https://api.emailjs.com/api/v1.0/email/send", params)
+      .then((response) => {
         if (response.status === 200) {
-          res.status(200).json({ message: "Email successfully sent" })
+          res.status(200).json({ message: "Email successfully sent" });
         }
       })
-      .catch(error => res.status(500).json({ error }))
-
+      .catch((error) => res.status(500).json({ error }));
   } else {
     res.status(400).json({ message: "Wrong request method" });
   }
