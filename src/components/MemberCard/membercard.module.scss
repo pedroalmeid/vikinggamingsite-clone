@@ -1,0 +1,58 @@
+.card {
+  background-color: #1f1f1f;
+  display: flex;
+  border-radius: 28px;
+  width: 565px;
+  gap: 40px;
+  margin: 40px;
+}
+
+.photo {
+  border-radius: 28px;
+  filter: brightness(0.5);
+}
+
+.content {
+  margin-top: 50px;
+
+  span {
+    font-family: "Anton", "Roboto", sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 36px;
+    color: #0afe6b;
+  }
+
+  p {
+    font-family: "Prompt", "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .name {
+    color: white;
+    margin-top: 8px;
+  }
+
+  .role {
+    color: #0afe6b;
+    margin-top: 5px;
+  }
+
+  .social {
+    margin-top: 15px;
+    display: flex;
+    font-size: 30px;
+    gap: 20px;
+
+    a {
+      cursor: pointer;
+      color: #0afe6b;
+      transition: filter 0.15s;
+
+      &:hover {
+        filter: opacity(0.6);
+      }
+    }
+  }
+}
