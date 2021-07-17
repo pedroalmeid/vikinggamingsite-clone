@@ -52,7 +52,7 @@ export default function Home() {
                   <HomeModalityCard modality="wildrift" />
                 </Link>
                 <Link href="/lineups">
-                  <HomeModalityCard modality="valorant" />
+                  <HomeModalityCard modality="streamers" />
                 </Link>
               </div>
             </nav>

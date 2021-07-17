@@ -9,7 +9,7 @@ export default function HomeModalityCard({ modality }) {
     <div
       className={useClassNames(styles.card, {
         [styles.freefire]: modality == "freefire",
-        [styles.valorant]: modality == "valorant",
+        [styles.streamers]: modality == "streamers",
         [styles.wildrift]: modality == "wildrift",
       })}
     >
