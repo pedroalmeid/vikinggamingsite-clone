@@ -4,14 +4,13 @@ import useClassNames from "classnames";
 
 import styles from "./lineupsmodalitycard.module.scss";
 
-export default function lineUpsModalityCard({ modality, inactive }) {
+export default function lineUpsModalityCard({ modality, clickFunction }) {
   return (
     <div
+      id={modality}
+      onClick={event => clickFunction(modality, event)}
       className={useClassNames(
         styles.modalityCard,
-        {
-          [styles.inactive]: inactive,
-        },
         {
           [styles.freefire]: modality == "freefire",
           [styles.streamers]: modality == "streamers",
