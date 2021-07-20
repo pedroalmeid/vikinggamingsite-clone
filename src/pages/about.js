@@ -5,6 +5,9 @@ import styles from "../styles/about.module.scss";
 import NavigationMenu from "../components/NavigationMenu/navigationMenu";
 import Layout from "../components/layout";
 import ArticleTopic from "../components/ArticleTopic/articleTopic";
+import MemberCard from "../components/MemberCard/memberCard";
+
+import membersData from "../data/members.json";
 
 import {
   faBookOpen,
@@ -94,6 +97,22 @@ export default function About() {
                 dispostos a corrigi-las da melhor forma possível.
               </p>
             </div>
+          </div>
+        </section>
+
+        <section className={styles.staff}>
+          <h2>Os membros da staff</h2>
+          <div className={styles.membersArea}>
+            {membersData.staff.map((member) => {
+              return (
+                <MemberCard
+                  nickname={member.nickname}
+                  name={member.name}
+                  role={member.role}
+                  social={member.social}
+                />
+              );
+            })}
           </div>
         </section>
 
