@@ -10,13 +10,8 @@ import {
 import styles from "./membercard.module.scss";
 
 export default function MemberCard(props) {
-  const social = [
-    { icon: faInstagram, url: "https://www.instagram.com/izybjorn/" },
-    { icon: faTwitter, url: "https://twitter.com/IzyBjorn" },
-    { icon: faTwitch, url: "https://www.twitch.tv/izybjorn" },
-  ];
 
-  const socialIcons = social.map((item) => (
+  const socialIcons = props.social.map((item) => (
     <a href={item.url} target="_blank">
       <FontAwesomeIcon icon={item.icon} />
     </a>

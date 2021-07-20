@@ -1,6 +1,6 @@
 .container {
   width: 1170px;
-  margin: 140px auto 0 auto;
+  margin: 140px auto 200px auto;
 
   h2 {
     color: #0AFE6B;
@@ -10,4 +10,10 @@
     font-family: "Anton", "Roboto", sans-serif;
     margin-bottom: 70px;
   }
+}
+
+.membersArea {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 35px;
 }
