@@ -10,7 +10,6 @@ import {
 import styles from "./membercard.module.scss";
 
 export default function MemberCard(props) {
-
   const socialIcons = props.social.map((item) => {
     if (item.icon == "instagram") {
       return (
@@ -18,15 +17,13 @@ export default function MemberCard(props) {
           <FontAwesomeIcon icon={faInstagram} />
         </a>
       );
-    }
-    else if (item.icon == "twitter") {
+    } else if (item.icon == "twitter") {
       return (
         <a href={item.url} target="_blank">
           <FontAwesomeIcon icon={faTwitter} />
         </a>
       );
-    }
-    else if (item.icon == "twitch") {
+    } else if (item.icon == "twitch") {
       return (
         <a href={item.url} target="_blank">
           <FontAwesomeIcon icon={faTwitch} />

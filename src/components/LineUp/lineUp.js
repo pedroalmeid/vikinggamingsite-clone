@@ -1,4 +1,4 @@
-import MemberCard from "../MemberCard/memberCard"
+import MemberCard from "../MemberCard/memberCard";
 
 import styles from "./lineup.module.scss";
 
@@ -8,15 +8,15 @@ export default function LineUp({ game, members }) {
       <h2>{game}</h2>
 
       <div className={styles.membersArea}>
-        {members.map(member => {
+        {members.map((member) => {
           return (
-            <MemberCard 
-            nickname={member.nickname}
-            name={member.name}
-            role={member.role}
-            social={member.social}
+            <MemberCard
+              nickname={member.nickname}
+              name={member.name}
+              role={member.role}
+              social={member.social}
             />
-          )
+          );
         })}
       </div>
     </main>

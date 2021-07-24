@@ -1,4 +1,5 @@
 .container {
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -11,9 +12,13 @@
   background-color: transparent;
 }
 
+.mobileBarsMenu {
+  display: none;
+}
+
 .menuItem {
   color: white;
-  font-size: 14px;
+  font-size: 1.4rem;
   font-family: "Prompt", "Roboto", "Arial", sans-serif;
   font-weight: 500;
   text-transform: uppercase;
@@ -21,5 +26,30 @@
 
   &:hover {
     letter-spacing: 5px;
+  }
+}
+
+@media (max-width: 660px) {
+  .container {
+    display: none;
+  }
+
+  .mobileBarsMenu {
+    display: block;
+    position: absolute;
+    right: 20px;
+    top: 100px;
+  }
+
+  .mobileTotal {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    background-color: #1F1F1F;
+
+    .menuItem {
+      font-size: 2rem;
+    }
   }
 }

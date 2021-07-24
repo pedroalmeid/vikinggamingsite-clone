@@ -1,6 +1,5 @@
 import Head from "next/head";
 import Image from "next/image";
-import Link from "next/link";
 
 import Layout from "../components/layout";
 import NavigationMenu from "../components/NavigationMenu/navigationMenu";
@@ -15,6 +14,7 @@ export default function Home() {
   return (
     <Layout>
       <Head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
         <title>Viking Gaming</title>
       </Head>
 
@@ -27,6 +27,7 @@ export default function Home() {
             width={486}
             height={493}
             alt="Homem Viking"
+            className={styles.headerImage}
           />
 
           <div>
@@ -45,15 +46,9 @@ export default function Home() {
                 Os jogos em que atuamos
               </span>
               <div className={styles.modalitiesMenu}>
-                <Link href="/lineups">
-                  <HomeModalityCard modality="freefire" />
-                </Link>
-                <Link href="/lineups">
-                  <HomeModalityCard modality="wildrift" />
-                </Link>
-                <Link href="/lineups">
-                  <HomeModalityCard modality="streamers" />
-                </Link>
+                <HomeModalityCard modality="freefire" />
+                <HomeModalityCard modality="wildrift" />
+                <HomeModalityCard modality="streamers" />
               </div>
             </nav>
           </div>
@@ -90,7 +85,7 @@ export default function Home() {
               um de seus membros, um lugar cada vez mais profissional. Conheça
               quem são as pessoas que doam sua vida ao projeto!
             </p>
-            <Button text="Ver mais" route="/about" />
+            <Button text="Ver mais" route="/about#staff" />
           </div>
         </section>
       </div>

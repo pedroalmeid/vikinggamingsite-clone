@@ -2,10 +2,12 @@
   display: flex;
   background-color: #1f1f1f;
   padding: 100px 0;
+  width: 100%;
 }
 
 .content {
-  width: 1170px;
+  width: 90%;
+  max-width: 1170px;
   margin: 0 auto;
 }
 
@@ -16,7 +18,7 @@
 
   div label {
     font-family: "Prompt", "Roboto", sans-serif;
-    font-size: 17px;
+    font-size: 1.7rem;
     font-weight: 500;
     color: #0afe6b;
   }
@@ -29,7 +31,7 @@
 
     a {
       font-family: "Prompt", "Roboto", sans-serif;
-      font-size: 15px;
+      font-size: 1.5rem;
       font-weight: 400;
       color: #a3a3a3;
       cursor: pointer;
@@ -55,7 +57,7 @@
     a,
     p {
       font-family: "Prompt", "Roboto", sans-serif;
-      font-size: 15px;
+      font-size: 1.5rem;
       font-weight: 400;
       color: #a3a3a3;
       cursor: pointer;
@@ -77,7 +79,7 @@
 
 .simpleText {
   font-family: "Prompt", "Roboto", sans-serif;
-  font-size: 15px;
+  font-size: 1.5rem;
   font-weight: 400;
   color: #a3a3a3;
 
@@ -88,7 +90,7 @@
     transition: font-size 0.2s;
 
     &:hover {
-      font-size: 16px;
+      font-size: 1.6rem;
     }
   }
 }

@@ -1,153 +1,153 @@
 {
-  "staff":[
+  "staff": [
     {
-      "nickname":"IzyBjorn",
-      "name":"Izânio Paulino de Araujo Cabral",
-      "role":"Fundador",
-      "social":[
+      "nickname": "IzyBjorn",
+      "name": "Izânio Paulino de Araujo Cabral",
+      "role": "Fundador",
+      "social": [
         {
-          "icon":"instagram",
-          "url":"https://www.instagram.com/izybjorn/"
+          "icon": "instagram",
+          "url": "https://www.instagram.com/izybjorn/"
         },
         {
-          "icon":"twitter",
-          "url":"https://twitter.com/IzyBjorn"
+          "icon": "twitter",
+          "url": "https://twitter.com/IzyBjorn"
         },
         {
-          "icon":"twitch",
-          "url":"https://www.twitch.tv/izybjorn"
+          "icon": "twitch",
+          "url": "https://www.twitch.tv/izybjorn"
         }
       ]
     },
     {
-      "nickname":"EnyGirll",
-      "name":"Italla Eny de Araujo Cabral",
-      "role":"Co Fundadora e CEO",
-      "social":[
+      "nickname": "EnyGirll",
+      "name": "Italla Eny de Araujo Cabral",
+      "role": "Co Fundadora e CEO",
+      "social": [
         {
-          "icon":"instagram",
-          "url":"https://www.instagram.com/itallaeny/"
+          "icon": "instagram",
+          "url": "https://www.instagram.com/itallaeny/"
         },
         {
-          "icon":"twitter",
-          "url":"https://twitter.com/itallaeny"
+          "icon": "twitter",
+          "url": "https://twitter.com/itallaeny"
         }
       ]
     },
     {
-      "nickname":"Débora Vargas",
-      "name":"Débora Vargas Fernandes",
-      "role":"Psicóloga",
-      "social":[
+      "nickname": "Débora Vargas",
+      "name": "Débora Vargas Fernandes",
+      "role": "Psicóloga",
+      "social": [
         {
-          "icon":"instagram",
-          "url":"https://www.instagram.com/psideboravf/"
+          "icon": "instagram",
+          "url": "https://www.instagram.com/psideboravf/"
         },
         {
-          "icon":"twitter",
-          "url":"https://twitter.com/psideboravf"
+          "icon": "twitter",
+          "url": "https://twitter.com/psideboravf"
         }
       ]
     }
   ],
-  "wildrift":[
+  "wildrift": [
     {
-      "nickname":"Zamboltt",
-      "name":"Matheus Zambotto",
-      "role":"Player",
-      "social":[
+      "nickname": "Zamboltt",
+      "name": "Matheus Zambotto",
+      "role": "Player",
+      "social": [
         {
-          "icon":"instagram",
-          "url":"https://www.instagram.com/vkg_zamboltt/"
+          "icon": "instagram",
+          "url": "https://www.instagram.com/vkg_zamboltt/"
         }
       ]
     },
     {
-      "nickname":"Zeramist",
-      "name":"Kéven Lucero Mirapalheta",
-      "role":"Player",
-      "social":[
+      "nickname": "Zeramist",
+      "name": "Kéven Lucero Mirapalheta",
+      "role": "Player",
+      "social": [
         {
-          "icon":"instagram",
-          "url":"https://www.instagram.com/vkg_zeramist/"
+          "icon": "instagram",
+          "url": "https://www.instagram.com/vkg_zeramist/"
         }
       ]
     },
     {
-      "nickname":"Breno",
-      "name":"Breno Araújo da Silva Nascimento",
-      "role":"Player",
-      "social":[
+      "nickname": "Breno",
+      "name": "Breno Araújo da Silva Nascimento",
+      "role": "Player",
+      "social": [
         {
-          "icon":"instagram",
-          "url":"https://www.instagram.com/vkg_breno/"
+          "icon": "instagram",
+          "url": "https://www.instagram.com/vkg_breno/"
         }
       ]
     },
     {
-      "nickname":"Dluz",
-      "name":"Gustavo Kauã Rachel da Luz",
-      "role":"Player",
-      "social":[
+      "nickname": "Dluz",
+      "name": "Gustavo Kauã Rachel da Luz",
+      "role": "Player",
+      "social": [
         {
-          "icon":"instagram",
-          "url":"https://www.instagram.com/vkg_dluz/"
+          "icon": "instagram",
+          "url": "https://www.instagram.com/vkg_dluz/"
         }
       ]
     },
     {
-      "nickname":"Guiga",
-      "name":"Guilherme de Oliveira Fernandes",
-      "role":"Player",
-      "social":[
+      "nickname": "Guiga",
+      "name": "Guilherme de Oliveira Fernandes",
+      "role": "Player",
+      "social": [
         {
-          "icon":"instagram",
-          "url":"https://www.instagram.com/vkg_guiga/"
+          "icon": "instagram",
+          "url": "https://www.instagram.com/vkg_guiga/"
         }
       ]
     }
   ],
-  "freefire":[
+  "freefire": [
     {
-      "nickname":"Scollta",
-      "name":"Paulo Henrique Menezes",
-      "role":"Líder da Guilda",
-      "social":[
+      "nickname": "Scollta",
+      "name": "Paulo Henrique Menezes",
+      "role": "Líder da Guilda",
+      "social": [
         {
-          "icon":"instagram",
-          "url":"https://www.instagram.com/paulo_gym/"
+          "icon": "instagram",
+          "url": "https://www.instagram.com/paulo_gym/"
         }
       ]
     },
     {
-      "nickname":"Loira",
-      "name":"Marie Freitas",
-      "role":"Vice Líder",
-      "social":[
+      "nickname": "Loira",
+      "name": "Marie Freitas",
+      "role": "Vice Líder",
+      "social": [
         {
-          "icon":"instagram",
-          "url":"https://www.instagram.com/mariefreitasr/"
+          "icon": "instagram",
+          "url": "https://www.instagram.com/mariefreitasr/"
         }
       ]
     }
   ],
-  "streamers":[
+  "streamers": [
     {
-      "nickname":"IzyBjorn",
-      "name":"Izânio Paulino de Araujo Cabral",
-      "role":"Twitch Streamer",
-      "social":[
+      "nickname": "IzyBjorn",
+      "name": "Izânio Paulino de Araujo Cabral",
+      "role": "Twitch Streamer",
+      "social": [
         {
-          "icon":"twitch",
-          "url":"https://www.twitch.tv/izybjorn"
+          "icon": "twitch",
+          "url": "https://www.twitch.tv/izybjorn"
         },
         {
-          "icon":"instagram",
-          "url":"https://www.instagram.com/izybjorn/"
+          "icon": "instagram",
+          "url": "https://www.instagram.com/izybjorn/"
         },
         {
-          "icon":"twitter",
-          "url":"https://twitter.com/IzyBjorn"
+          "icon": "twitter",
+          "url": "https://twitter.com/IzyBjorn"
         }
       ]
     }

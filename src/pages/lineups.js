@@ -1,3 +1,5 @@
+import Head from "next/head"
+
 import { useState } from "react";
 
 import Layout from "../components/layout";
@@ -5,7 +7,7 @@ import NavigationMenu from "../components/NavigationMenu/navigationMenu";
 import LineUp from "../components/LineUp/lineUp";
 import LineUpsModalityCard from "../components/LineUpsModalityCard/lineUpsModalityCard";
 
-import membersData from "../data/members.json"
+import membersData from "../data/members.json";
 
 import styles from "../styles/lineups.module.scss";
 
@@ -46,6 +48,11 @@ export default function LineUps() {
 
   return (
     <Layout>
+      <Head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+        <title>LineUps | Viking Gaming</title>
+      </Head>
+
       <NavigationMenu />
 
       <nav className={styles.modalityChoicer}>

@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Head from "next/head";
 
 import styles from "../styles/about.module.scss";
 
@@ -22,6 +23,11 @@ import {
 export default function About() {
   return (
     <Layout>
+      <Head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+        <title>Sobre | Viking Gaming</title>
+      </Head>
+
       <NavigationMenu />
 
       <div className={styles.pageContent}>
@@ -100,7 +106,7 @@ export default function About() {
           </div>
         </section>
 
-        <section className={styles.staff}>
+        <section className={styles.staff} id="staff">
           <h2>Os membros da staff</h2>
           <div className={styles.membersArea}>
             {membersData.staff.map((member) => {

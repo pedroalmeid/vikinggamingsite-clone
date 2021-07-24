@@ -1,3 +1,5 @@
+import Head from "next/head"
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faDiscord,
@@ -36,8 +38,12 @@ export default function Contact() {
     event.target.reset();
   }
 
-  return (  
+  return (
     <Layout>
+      <Head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+        <title>Contato | Viking Gaming</title>
+      </Head>
       <NavigationMenu />
 
       <main className={styles.formContainer}>

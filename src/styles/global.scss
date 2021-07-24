@@ -6,10 +6,20 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 62.5%;
+}
+
 body {
   background-color: #121212;
 }
 
 a {
   text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 55%;
+  }
 }
