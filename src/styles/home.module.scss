@@ -147,8 +147,23 @@
   }
 }
 
+@media (max-width: 875px) {
+  .contentBox {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+}
+
 @media (max-width: 660px) {
   .modalitiesMenu {
     flex-direction: column;
   }
+
+  .partnersLogos {
+    margin-top: 40px;
+    flex-direction: column;
+  }
 }
+

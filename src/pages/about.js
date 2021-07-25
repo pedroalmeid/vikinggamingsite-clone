@@ -70,12 +70,14 @@ export default function About() {
             </div>
           </article>
 
-          <Image
-            src="/images/haven.jpg"
-            width={465}
-            height={1288}
-            alt="Corvo de Odin"
-          />
+          <div>
+            <Image
+              src="/images/haven.jpg"
+              width={465}
+              height={1288}
+              alt="Corvo de Odin"
+            />
+          </div>
         </section>
 
         <section className={styles.virtues}>
@@ -123,12 +125,14 @@ export default function About() {
         </section>
 
         <section className={styles.wordingSection}>
-          <Image
-            src="/images/viking-woman.jpg"
-            width={465}
-            height={795}
-            alt="Guerreira Viking"
-          />
+          <div>
+            <Image
+              src="/images/viking-woman.jpg"
+              width={465}
+              height={795}
+              alt="Guerreira Viking"
+            />
+          </div>
 
           <div className={styles.topics}>
             <ArticleTopic

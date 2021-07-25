@@ -102,3 +102,19 @@
   gap: 10px;
   font-weight: 500;
 }
+
+@media (max-width: 940px) {
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .top {
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+  }
+}

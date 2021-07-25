@@ -51,21 +51,16 @@ export default function NavigationMenu({ transparent }) {
 
       <FontAwesomeIcon
         icon={mobileIcon}
-        size="4x"
+        size="5x"
         color="white"
         className={styles.mobileBarsMenu}
         onClick={() => {
-
           if (menuTotal) {
-            setMenuTotal(false)
-            setMobileIcon(faBars)
-            document.body.style.overflow = 'initial'
-          }
-          
-          else {
-            setMenuTotal(true)
-            setMobileIcon(faTimes)
-            document.body.style.overflow = 'hidden'
+            setMenuTotal(false);
+            setMobileIcon(faBars);
+          } else {
+            setMenuTotal(true);
+            setMobileIcon(faTimes);
           }
         }}
       />

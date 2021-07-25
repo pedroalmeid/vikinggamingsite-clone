@@ -18,7 +18,7 @@
   p {
     font-size: 2.2rem;
     font-weight: 400;
-    font-family: "Prompt", "Roboto" sans-serif;
+    font-family: "Prompt", "Roboto", sans-serif;
     color: #a3a3a3;
   }
 
@@ -34,7 +34,7 @@
       gap: 20px;
 
       label {
-        font-family: "Prompt", "Roboto" sans-serif;
+        font-family: "Prompt", "Roboto", sans-serif;
         color: #0afe6b;
         font-weight: 600;
         font-size: 1.6rem;
@@ -47,7 +47,7 @@
         height: 64px;
         padding: 30px 30px;
         color: #a3a3a3;
-        font-family: "Prompt", "Roboto" sans-serif;
+        font-family: "Prompt", "Roboto", sans-serif;
         font-size: 1.6rem;
         font-weight: 400;
         transition: margin 0.2s;
@@ -65,7 +65,7 @@
         border-radius: 12px;
         padding: 30px 30px;
         color: #a3a3a3;
-        font-family: "Prompt", "Roboto" sans-serif;
+        font-family: "Prompt", "Roboto", sans-serif;
         font-size: 1.6rem;
         font-weight: 400;
         transition: margin 0.2s;
@@ -110,7 +110,7 @@
         gap: 20px;
         align-items: center;
         color: #0afe6b;
-        font-family: "Prompt", "Roboto" sans-serif;
+        font-family: "Prompt", "Roboto", sans-serif;
         font-size: 2rem;
         font-weight: 600;
         transition: filter 0.3s;
@@ -119,6 +119,34 @@
           filter: opacity(0.5);
         }
       }
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+  .formContainer {
+    text-align: center;
+
+    p {
+      margin-top: 20px;
+    }
+  }
+
+  .socialsSection div {
+    text-align: center;
+
+    nav {
+      align-items: center;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .formContainer {
+    padding: 10%;
+
+    h1 {
+      font-size: 4rem;
     }
   }
 }
