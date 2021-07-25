@@ -12,7 +12,8 @@ export default function HomeModalityCard({ modality }) {
         [styles.streamers]: modality == "streamers",
         [styles.wildrift]: modality == "wildrift",
       })}
-    >
+    > 
+    
       <Image
         src={`/images/games/${modality}.png`}
         alt={modality}
