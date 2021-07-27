@@ -1,6 +1,6 @@
 <h1 align="center">Viking Gaming NextJS Clone</h1>
 
-<p align="center"><strong>In production: <a href="vikinggamingclone.vercel.app">vikinggamingclone.vercel.app</a></strong></p>
+<p align="center"><strong>In production: <a href="https://vikinggamingclone.vercel.app">vikinggamingclone.vercel.app</a></strong></p>
 
 <br>
 
