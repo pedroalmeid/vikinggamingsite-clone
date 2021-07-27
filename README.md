@@ -88,7 +88,7 @@ To your own keys and tokens and understand better the use of this variables, che
 
 ## License
 
-Distributed under the MIT License. See `LICENSE` for more information.
+Distributed under the Creative Commons Legal Code. See `LICENSE` for more information.
 
 ## Contact
 
