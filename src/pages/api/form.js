@@ -8,7 +8,6 @@ export default async function handler(req, res) {
       service_id: process.env.EMAIL_SERVICE_ID,
       template_id: process.env.EMAIL_TEMPLATE_ID,
       user_id: process.env.EMAIL_USER_ID,
-      accessToken: process.env.EMAIL_ACCESS_TOKEN,
       template_params: {
         name: body.name,
         email: body.email,

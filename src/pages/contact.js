@@ -1,4 +1,4 @@
-import Head from "next/head"
+import Head from "next/head";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -17,23 +17,31 @@ export default function Contact() {
   async function handleContact(event) {
     event.preventDefault();
 
-    const data = {
-      name: event.target.name.value,
-      email: event.target.email.value,
-      subject: event.target.subject.value,
-      message: event.target.message.value,
+    const params = {
+      service_id: process.env.NEXT_PUBLIC_EMAIL_SERVICE_ID,
+      template_id: process.env.NEXT_PUBLIC_EMAIL_TEMPLATE_ID,
+      user_id: process.env.NEXT_PUBLIC_EMAIL_USER_ID,
+      template_params: {
+        name: event.target.name.value,
+        email: event.target.email.value,
+        subject: event.target.subject.value,
+        message: event.target.message.value,
+        recipient: process.env.NEXT_PUBLIC_EMAIL_RECIPIENT,
+      },
     };
 
-    await fetch("/api/form", {
+    await fetch("https://api.emailjs.com/api/v1.0/email/send", {
       method: "POST",
-      body: JSON.stringify(data),
-    }).then((res) => {
-      if (res.status == 200) {
-        alert(
-          "Email enviado com sucesso, você receberá sua resposta em breve!"
-        );
-      }
-    });
+      body: JSON.stringify(params),
+    })
+      .then((res) => {
+        if (res.status == 200) {
+          alert(
+            "Email enviado com sucesso, você receberá sua resposta em breve!"
+          );
+        }
+      })
+      .catch((err) => console.log(err));
 
     event.target.reset();
   }
@@ -41,7 +49,10 @@ export default function Contact() {
   return (
     <Layout>
       <Head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1.0"
+        ></meta>
         <title>Contato | Viking Gaming</title>
       </Head>
       <NavigationMenu />
