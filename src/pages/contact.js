@@ -21,6 +21,7 @@ export default function Contact() {
       service_id: process.env.NEXT_PUBLIC_EMAIL_SERVICE_ID,
       template_id: process.env.NEXT_PUBLIC_EMAIL_TEMPLATE_ID,
       user_id: process.env.NEXT_PUBLIC_EMAIL_USER_ID,
+      accessToken: process.env.NEXT_PUBLIC_EMAIL_ACCESSTOKEN,
       template_params: {
         name: event.target.name.value,
         email: event.target.email.value,
@@ -30,8 +31,12 @@ export default function Contact() {
       },
     };
 
+
     await fetch("https://api.emailjs.com/api/v1.0/email/send", {
       method: "POST",
+      headers: {
+        "Content-Type": "application/json"
+      },
       body: JSON.stringify(params),
     })
       .then((res) => {
