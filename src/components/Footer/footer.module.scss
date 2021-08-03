@@ -1,0 +1,120 @@
+.container {
+  display: flex;
+  background-color: #1f1f1f;
+  padding: 100px 0;
+  width: 100%;
+}
+
+.content {
+  width: 90%;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  div label {
+    font-family: "Prompt", "Roboto", sans-serif;
+    font-size: 1.7rem;
+    font-weight: 500;
+    color: #0afe6b;
+  }
+
+  nav {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    a {
+      font-family: "Prompt", "Roboto", sans-serif;
+      font-size: 1.5rem;
+      font-weight: 400;
+      color: #a3a3a3;
+      cursor: pointer;
+      transition: filter 0.35s;
+
+      &:hover {
+        filter: brightness(0.5);
+      }
+    }
+  }
+
+  .thirdColumn {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    .subFields {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    a,
+    p {
+      font-family: "Prompt", "Roboto", sans-serif;
+      font-size: 1.5rem;
+      font-weight: 400;
+      color: #a3a3a3;
+      cursor: pointer;
+      transition: filter 0.35s;
+
+      &:hover {
+        filter: brightness(0.5);
+      }
+    }
+  }
+}
+
+.bottom {
+  display: flex;
+  flex-direction: column;
+  margin-top: 85px;
+  gap: 15px;
+}
+
+.simpleText {
+  font-family: "Prompt", "Roboto", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #a3a3a3;
+
+  a {
+    color: #0afe6b;
+    font-weight: 500;
+    cursor: pointer;
+    transition: font-size 0.2s;
+
+    &:hover {
+      font-size: 1.6rem;
+    }
+  }
+}
+
+.social nav a {
+  color: #0afe6b;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 500;
+}
+
+@media (max-width: 940px) {
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .top {
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+  }
+}
