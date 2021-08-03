@@ -1,6 +1,6 @@
 <h1 align="center">Viking Gaming NextJS Clone</h1>
 
-<p align="center"><strong>In production: <a>vikinggamingclone.vercel.app</a></strong></p>
+<p align="center"><strong>In production: <a href="https://vikinggamingclone.vercel.app">vikinggamingclone.vercel.app</a></strong></p>
 
 <br>
 
@@ -88,10 +88,8 @@ To your own keys and tokens and understand better the use of this variables, che
 
 ## License
 
-Distributed under the MIT License. See `LICENSE` for more information.
+Distributed under the Creative Commons Legal Code. See `LICENSE` for more information.
 
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email
-
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
+Pedro Almeida - pedroalmeid@ignos.com.br
