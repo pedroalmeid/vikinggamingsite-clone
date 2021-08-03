@@ -95,7 +95,7 @@ export default function Home() {
         <div className={styles.partnersLogos}>
           <a href="https://www.wayup.gg/viking-gaming" target="_blank">
             <Image
-              src="/images/partners/wayup.png"
+              src="/images/partners/WayUp.png"
               width={140}
               height={60}
               alt="Way Up"
